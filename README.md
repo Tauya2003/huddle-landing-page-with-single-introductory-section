@@ -47,6 +47,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - CSS preprocessor
+- [Font Awesome](https://fontawesome.com/) 
 
 
 ## Author
