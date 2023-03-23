@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+$violet: hsl(257, 40%, 49%);
+$soft-Magenta: hsl(300, 69%, 71%);
+$white: #fff;
+
+$font-weights: (
+  regular: 400,
+  bold: 600,
+);
+
+@function weights($weight) {
+  @return map-get($map: $font-weights, $key: $weight);
+}
+
+@mixin small {
+  @media screen and (max-width: 999px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media screen and (min-width: 1000px) {
+    @content;
+  }
+} ;
